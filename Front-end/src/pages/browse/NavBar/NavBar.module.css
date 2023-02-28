@@ -1,0 +1,32 @@
+.nav_bar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  z-index: 10;
+}
+
+.title {
+  margin: 0;
+  color: rgb(221, 0, 0);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+.icon {
+  height: 24px;
+  line-height: 24px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}

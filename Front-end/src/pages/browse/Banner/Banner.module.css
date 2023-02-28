@@ -1,0 +1,38 @@
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 700px;
+  background-size: cover;
+}
+
+.movie_infor {
+  left: 20px;
+  top: 360px;
+  text-shadow: 1px 0px 3px black;
+  position: relative;
+  color: white;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.actions {
+  display: flex;
+  width: 250px;
+  justify-content: space-around;
+}
+
+.actions button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: larger;
+  text-shadow: 1px 0px 3px black;
+  font-weight: 300;
+}
+
+.actions button:hover {
+  cursor: pointer;
+}
